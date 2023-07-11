@@ -1,0 +1,386 @@
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  .birla {
+    .nav_div {
+      .enquire {
+        padding: 8px 20px;
+      }
+    }
+    .nav_section {
+      .navbar {
+        .navbar-collapse {
+          .navbar-nav {
+            gap: 15px;
+          }
+        }
+      }
+    }
+    .banner {
+      .banner_text {
+        .head {
+          padding: 87px 36px;
+          h1 {
+            font-size: 30px;
+            line-height: 40px;
+          }
+          h3 {
+            font-size: 21px;
+            letter-spacing: 0;
+          }
+        }
+      }
+      #custCarousel {
+        .carousel-indicators {
+          margin-right: 123px;
+          li {
+            img {
+              width: 150px;
+              height: 100px;
+            }
+          }
+        }
+      }
+    }
+    .about_us {
+      padding: 200px 0 130px;
+      .left {
+        h2 {
+          font-size: 30px;
+          line-height: 33px;
+          padding-bottom: 10px;
+          letter-spacing: 0;
+        }
+        p {
+          font-size: 16px;
+          line-height: 29px;
+        }
+      }
+      .right {
+        img {
+          width: 100%;
+        }
+        .icon {
+          bottom: 51px;
+        }
+      }
+    }
+    .why_choose {
+      h2 {
+        font-size: 30px;
+        line-height: 33px;
+        letter-spacing: 0;
+      }
+      .img_list {
+        .right_list {
+          padding: 30px 30px;
+          ul {
+            li {
+              font-weight: 500;
+              font-size: 16px;
+              line-height: 17px;
+            }
+            .hr_line {
+              margin: 10px 0;
+            }
+          }
+        }
+        .left_img {
+          img {
+            height: 133vh;
+          }
+        }
+      }
+    }
+    .education {
+      padding: 100px 0;
+      .programs h2 {
+        font-size: 30px;
+        line-height: 33px;
+        letter-spacing: 0;
+      }
+      .image {
+        .card {
+          .bg-color {
+            h2 {
+              font-size: 18px;
+              line-height: 30px;
+            }
+          }
+        }
+      }
+    }
+    .footer {
+      .legacy {
+        form {
+          label,
+          button {
+            width: 685px;
+          }
+        }
+      }
+      &_section {
+        padding: 60px 30px 60px;
+      }
+    }
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .birla {
+    .nav_section {
+      top: 106%;
+      .navbar-nav {
+        gap: 10px;
+        li {
+          a {
+            font-size: 11px;
+          }
+        }
+      }
+    }
+    .banner {
+      .banner_text {
+        .head {
+          padding: 31px 36px;
+          h1 {
+            font-size: 30px;
+            line-height: 40px;
+          }
+          h3 {
+            font-size: 21px;
+            letter-spacing: 0;
+          }
+        }
+      }
+      #custCarousel {
+        .carousel-indicators {
+          margin-right: 64px;
+          li {
+            img {
+              width: 120px;
+              height: 70px;
+            }
+          }
+        }
+      }
+    }
+    .about_us {
+      padding: 200px 0 130px;
+      .left {
+        h2 {
+          font-size: 30px;
+          line-height: 33px;
+          padding-bottom: 10px;
+          letter-spacing: 0;
+        }
+        p {
+          font-size: 14px;
+          line-height: 28px;
+        }
+      }
+      .right {
+        img {
+          width: 100%;
+        }
+        .icon {
+          bottom: 241px;
+        }
+      }
+    }
+    .why_choose {
+      h2 {
+        font-size: 30px;
+        line-height: 33px;
+        letter-spacing: 0;
+      }
+      .img_list {
+        .right_list {
+          padding: 30px 30px;
+          ul {
+            li {
+              font-weight: 500;
+              font-size: 16px;
+              line-height: 17px;
+            }
+            .hr_line {
+              margin: 10px 0;
+            }
+          }
+        }
+        .left_img {
+          img {
+            height: 133vh;
+          }
+        }
+      }
+    }
+    .education {
+      padding: 100px 0;
+      .programs h2 {
+        font-size: 30px;
+        line-height: 33px;
+        letter-spacing: 0;
+      }
+      .image {
+        .card {
+          .bg-color {
+            h2 {
+              font-size: 18px !important;
+              line-height: 30px !important;
+            }
+          }
+          img {
+            height: 35vh;
+          }
+        }
+      }
+    }
+    .footer {
+      &_section {
+        padding: 60px 30px 60px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 767px) {
+  .birla {
+    .nav_div {
+      .right_side {
+        display: none;
+      }
+    }
+    .nav_section {
+      .navbar {
+        .navbar-collapse {
+          .navbar-nav {
+            gap: 10px;
+            gap: 10px;
+            padding: 0 25px;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 20px;
+            font-family: "Work Sans", sans-serif;
+          }
+        }
+        .navbar-toggler {
+          font-size: 30px;
+          margin-left: auto;
+          color: #ad2627;
+        }
+      }
+    }
+    .banner {
+      .banner_text {
+        .head {
+          padding: 50px 13px;
+          h1 {
+            font-size: 35px;
+            line-height: 55px;
+          }
+          h3 {
+            font-size: 24px;
+            letter-spacing: 0;
+          }
+        }
+      }
+      #custCarousel {
+        .carousel-indicators {
+          margin-right: 0;
+          li {
+            img {
+              width: 100px;
+              height: 70px;
+            }
+          }
+        }
+      }
+    }
+    .about_us {
+      padding: 90px 0;
+      .left {
+        h2 {
+          font-size: 27px;
+          line-height: 40px;
+        }
+      }
+      .right {
+        img {
+          margin-top: 50px;
+          width: 100%;
+        }
+        .icon {
+          bottom: 0;
+        }
+      }
+    }
+    .why_choose {
+      h2 {
+        font-size: 27px;
+        line-height: 40px;
+        letter-spacing: 0;
+      }
+      .img_list {
+        .right_list {
+          padding: 30px 15px;
+          ul {
+            li {
+              font-size: 16px;
+            }
+          }
+        }
+      }
+    }
+    .education {
+      padding: 100px 0;
+      .programs {
+        display: block;
+        h2 {
+          font-size: 27px;
+          line-height: 40px;
+          letter-spacing: 0;
+        }
+      }
+      .image {
+        .card {
+          margin-top: 30px;
+          img {
+            height: 80vh;
+          }
+          .bg-color {
+            h2 {
+              font-size: 19px;
+            }
+          }
+        }
+      }
+    }
+    // .why_choose {
+    //   .grid-container {
+    //     grid-template-columns: repeat(1, 1fr);
+    //   }
+    // }
+    .footer {
+      .legacy {
+        padding: 70px 15px 60px;
+        form {
+          label,
+          button {
+            width: 348px;
+          }
+        }
+      }
+      .footer_section {
+        padding: 70px 15px 60px;
+        iframe {
+          margin-top: 20px;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
